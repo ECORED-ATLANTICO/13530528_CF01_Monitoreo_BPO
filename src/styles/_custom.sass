@@ -1,0 +1,45 @@
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 10%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+  
+///////////CUSTOM BANNER PRINCIPAL E INTERNO/////////////
+.banner-principal .tarjeta
+  background-position: left 50% !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white !important
+
+.banner-interno__titulo__icono i
+  color: $color-primario
+
+figcaption
+  font-weight: normal
+
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/banner_interno.png") !important
+.banner-principal .tarjeta
+  @media screen and (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
