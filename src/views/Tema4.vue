@@ -8,7 +8,7 @@
       h1 Procedimientos de evaluación
 
     
-    .row.align-items-center(data-aos="fade-left").mb-2
+    .row.align-items-center(data-aos="fade-left").mb-0
       .col-12.col-md-12.col-lg-3
         figure
           img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img01.png', alt='Imagen Decorativa')
@@ -17,59 +17,58 @@
 
     separador
 
-    //- Titulo
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_4_1 4.1 Pasos
+    .bg-full-width.bg01
+      //- Titulo
+      .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2#t_4_1 4.1 Pasos
 
-    .row.align-items-center(data-aos="fade-left").mb-5
-      .col-12.col-md-12.col-lg-12
-        p La evaluación del desempeño en servicios BPO se desarrolla mediante un proceso estructurado compuesto por tres pasos secuenciales: recolección de datos, análisis de la información y comparación con estándares. Cada etapa cumple un propósito clave dentro del ciclo de gestión del desempeño, permitiendo pasar de la observación operativa a la toma de decisiones estratégicas. Según Cordero Torres & Riofrío Romero (2024), este proceso debe ser sistemático, trazable y orientado a la mejora continua.
-     
-    
-    //- Col10
-    .row
-      .col-12.col-lg-6.mx-auto
-        .titulo-sexto.mb-4
-          h5 Figura 2. 
-            span Fases clave en la producción sostenible
+      .row.align-items-center(data-aos="fade-left").mb-5
+        .col-12.col-md-12.col-lg-12
+          p La evaluación del desempeño en servicios BPO se desarrolla mediante un proceso estructurado compuesto por tres pasos secuenciales: recolección de datos, análisis de la información y comparación con estándares. Cada etapa cumple un propósito clave dentro del ciclo de gestión del desempeño, permitiendo pasar de la observación operativa a la toma de decisiones estratégicas. Según Cordero Torres & Riofrío Romero (2024), este proceso debe ser sistemático, trazable y orientado a la mejora continua.
+      
+      
+      //- Col10
+      .row
+        .col-12.col-lg-6.mx-auto
+          .titulo-sexto.mb-4
+            h5 Figura 2. 
+              span Fases clave en la producción sostenible
 
-        ImagenInfografica.d-none.d-lg-block.img-infografica.color-primario
-          template(v-slot:imagen)
-            figure
-              img.mb-3(src='@/assets/curso/temas/tema4/img02.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
-              figcaption 
-                b Fuente. 
-                | SENA, 2025.
+          ImagenInfografica.d-none.d-lg-block.img-infografica.color-primario
+            template(v-slot:imagen)
+              figure
+                img.mb-3(src='@/assets/curso/temas/tema4/img02.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+                figcaption 
+                  b Fuente. 
+                  | SENA, 2025.
 
-          .tarjeta.p-2.px-3(x="16.5%" y="63.5%" numero="+")
-            .row.align-items-center
-              .col-2
-                h2.mb-0.text-destacado 01
-              .col-10
-                p.mb-0 Es el punto de partida del proceso. Consiste en capturar información verificada y actualizada sobre la operación del servicio, proveniente de fuentes confiables como CRM, reportes, encuestas o bases de datos. Garantiza la precisión y representatividad de los datos mediante protocolos definidos y registros estructurados.
-          .tarjeta.p-2.px-3(x="50.5%" y="63.5%" numero="+")
-            .row.align-items-center
-              .col-2
-               h2.mb-0.text-destacado 02
-              .col-10
-                p.mb-0 
-                 b Selección de materiales: 
-                 | elige insumos verdes.
-          .tarjeta.color-acento-botones.p-2.px-3(x="84.6%" y="63.5%" numero="+")
-            .row.align-items-center
-              .col-2
-               h2.mb-0.text-destacado 03
-              .col-10
-                p.mb-0 
-                 b Producción limpia: 
-                 | menos agua, energía y químicos.
+            .tarjeta.p-2.px-3(x="16.5%" y="63.5%" numero="+")
+              .row.align-items-center
+                .col-2
+                  h2.mb-0.text-destacado 01
+                .col-10
+                  p.mb-0 Es el punto de partida del proceso. Consiste en capturar información verificada y actualizada sobre la operación del servicio, proveniente de fuentes confiables como CRM, reportes, encuestas o bases de datos. Garantiza la precisión y representatividad de los datos mediante protocolos definidos y registros estructurados.
+            .tarjeta.p-2.px-3(x="50.5%" y="63.5%" numero="+")
+              .row.align-items-center
+                .col-2
+                h2.mb-0.text-destacado 02
+                .col-10
+                  p.mb-0 
+                  b Selección de materiales: 
+                  | elige insumos verdes.
+            .tarjeta.color-acento-botones.p-2.px-3(x="84.6%" y="63.5%" numero="+")
+              .row.align-items-center
+                .col-2
+                h2.mb-0.text-destacado 03
+                .col-10
+                  p.mb-0 
+                  b Producción limpia: 
+                  | menos agua, energía y químicos.
 
-          
-        //- Version movil de la figura
-        figure.d-block.d-lg-none
-          img(src='@/assets/curso/temas/tema4/img02_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
-
-
+            
+          //- Version movil de la figura
+          figure.d-block.d-lg-none
+            img(src='@/assets/curso/temas/tema4/img02_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
 
     separador
 
@@ -165,7 +164,7 @@
               p.mb-0 una adecuada documentación no solo facilita la comunicación entre las áreas involucradas, sino que también fortalece el seguimiento de acciones correctivas y promueve la mejora continua del servicio.
               i.fas.fa-quote-right
 
-          .cajon.bg-color-primario-p10.p-4.mb-4
+          .cajon.bg-color-acento-botones-p20.p-4.mb-4
             p.mb-0 En este sentido, los documentos asociados a la evaluación del desempeño pueden adoptar diferentes formatos, como matrices de evaluación, listas de verificación, informes técnicos y tableros de control. Estos instrumentos permiten organizar y analizar la información de manera sistemática, facilitando la toma de decisiones y el seguimiento de la gestión operativa. A continuación, se describen los principales componentes documentales utilizados en el proceso de evaluación del desempeño:
     
     .row.align-items-center(data-aos="fade-left")
