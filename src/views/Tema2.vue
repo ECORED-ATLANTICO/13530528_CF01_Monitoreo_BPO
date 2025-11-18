@@ -82,6 +82,10 @@
           figure.mb-4
             img(src='@/assets/curso/temas/tema2/img05.svg', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
 
+          //- Version movil de la figura
+          figure.d-block.d-lg-none
+            img(src='@/assets/curso/temas/tema2/img05_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+
           figcaption 
             b Fuente: 
             | SENA, 2025.
