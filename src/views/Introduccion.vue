@@ -18,7 +18,7 @@
           p El componente formativo <b>Servicios BPO</b> ofrece al aprendiz herramientas técnicas y prácticas para abordar el monitoreo del desempeño en los procesos de externalización de servicios empresariales. 
           
             .row
-              .col-12.col-lg-1.d-none.d-d-lg-block
+              .col-12.col-lg-1.d-none.d-lg-block
                 figure
                   img.mb-4.mb-lg-0(src='@/assets/curso/intro/img02.svg', alt='Imagen Decorativa').w-auto
               .col-12.col-lg-11
