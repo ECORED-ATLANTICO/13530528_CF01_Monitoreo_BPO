@@ -1,18 +1,23 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Servicios BPO',
+    Description:
+      'Este componente formativo aborda fundamentos teóricos y prácticos de la gestión y monitoreo del desempeño en los servicios BPO. Explora los modelos de negocio, niveles de servicio, indicadores de gestión y procedimientos de evaluación aplicados a procesos tercerizados. Permite al aprendiz analizar y establecer métricas que optimicen la calidad y eficiencia del servicio.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
+      // {
+      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      // },
+      // {
+      //   clases: ['banner-principal-decorativo-2'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      // },
+      // {
+      //   clases: ['banner-principal-decorativo-3'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      // },
     ],
   },
   menuPrincipal: {
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Modelos de negocio',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tipos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Segmentos de mercado',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +60,78 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Niveles de servicio',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Concepto',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Estructura',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Indicadores',
+            hash: 't_2_3',
+          },
+        ],
       },
+
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Indicadores de gestión',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Fuentes de datos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Herramientas de monitoreo',
+            hash: 't_3_4',
+          },
+        ],
+      },
+
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Procedimientos de evaluación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Pasos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Protocolos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Documentación',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -86,7 +165,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_62110007_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -102,22 +181,100 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Niveles de servicio',
+      referencia:
+        'Da Silva, D. (s.f.). 6 métodos simples para la evaluación del servicio al cliente. Zendesk.',
+      tipo: 'Artículo',
+      link: 'https://www.zendesk.com.mx/blog/evaluacion-servicio-al-cliente/',
+    },
+    {
+      tema: 'Modelos de negocio',
+      referencia:
+        'ESIC Business & Marketing School. (2025). BPO: qué es, cómo funciona y ejemplos.',
+      tipo: 'Artículo',
+      link:
+        'https://www.esic.edu/rethink/marketing-y-comunicacion/bpo-que-es-como-funciona-y-ejemplos-c',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Acuerdo de Nivel de Servicio (SLA)',
+      significado:
+        'Documento técnico-operativo que establece los parámetros mínimos de calidad, eficiencia y oportunidad que debe cumplir un servicio tercerizado.',
+    },
+    {
+      termino: 'Back office',
+      significado:
+        'Tipo de servicio BPO que se desarrolla sin contacto directo con el cliente.',
+    },
+    {
+      termino: 'Calidad del servicio',
+      significado:
+        'Dimensión evaluativa que mide el grado de cumplimiento de protocolos, estándares y buenas prácticas en la prestación del servicio.',
+    },
+    {
+      termino: 'CRM (Customer Relationship Management)',
+      significado:
+        'Sistema tecnológico que permite gestionar las interacciones con clientes, registrar datos operativos, medir indicadores y facilitar el seguimiento de casos en tiempo real.',
+    },
+    {
+      termino: 'Evaluación del desempeño',
+      significado:
+        'Proceso técnico que permite validar la operación del servicio mediante la recolección, análisis y comparación de datos frente a estándares definidos.',
+    },
+    {
+      termino: 'Front office',
+      significado:
+        'Tipo de servicio BPO que implica contacto directo con el cliente.',
+    },
+    {
+      termino: 'Indicador de gestión (KPI)',
+      significado:
+        'Medida cuantitativa o cualitativa que permite evaluar el desempeño de un proceso o servicio.',
+    },
+    {
+      termino: 'Matriz de evaluación',
+      significado:
+        'Formato técnico que permite analizar la calidad de una interacción o proceso, mediante criterios como cortesía, resolución, cumplimiento del script y manejo emocional.',
+    },
+    {
+      termino: 'Procedimiento técnico',
+      significado:
+        'Conjunto de pasos estructurados que guían la evaluación del servicio, incluyendo la recolección de datos, análisis de información y comparación con estándares.',
+    },
+    {
+      termino: 'Tasa de resolución en primer contacto (FCR)',
+      significado:
+        'Indicador que mide el porcentaje de casos resueltos en la primera interacción con el cliente, sin necesidad de escalamiento.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Castellaños, P., & Farias, P. (2011). Estructuración de un modelo de servicio para el sector de Servicios tercerizados a distancia BPO&O. Universidad EAN.',
       link: '',
+    },
+    {
+      referencia:
+        'Da Silva, D. (s.f.). 6 métodos simples para la evaluación del servicio al cliente. Zendesk.',
+      link: 'https://www.zendesk.com.mx/blog/evaluacion-servicio-al-cliente/',
+    },
+    {
+      referencia:
+        'ESIC Business & Marketing School. (2025, mayo). BPO: qué es, cómo funciona y ejemplos. ESIC Rethink.',
+      link:
+        'https://www.esic.edu/rethink/marketing-y-comunicacion/bpo-que-es-como-funciona-y-ejemplos-c',
+    },
+    {
+      referencia:
+        'Montoya, C. A. (2009). Evaluación del desempeño como herramienta para el análisis del capital humano. Revista Científica Visión de Futuro, 11(1), Universidad Nacional de Misiones.',
+      link: 'https://www.redalyc.org/pdf/3579/357935472005.pdf',
+    },
+    {
+      referencia:
+        'Sánchez Torres, W. C., Delgado Vélez, L. D., Gaviria Martínez, L. F., Montoya Ríos, F. J., & Ángel Rodrigo, V. B. (2014). Una mirada analítica al sector de BPO en Colombia y Antioquia. Institución Universitaria Esumer.',
+      link:
+        'https://repositorio.esumer.edu.co/items/4b4072cd-7176-43da-a7b1-ede5d4e39690',
     },
   ],
   creditos: [
@@ -125,14 +282,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -140,9 +298,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Mario Morales Cabrera ',
+          cargo: 'Experto temático ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Yezid Arturo Choperena Guerrero',
+          cargo: 'Experto temático ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Heydy Cristina González García',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -150,19 +318,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseñador <em>web</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
+          cargo: 'Desarrollador <i>full stack junior</i>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -170,14 +338,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'María Fernanda Morales Angulo',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adie Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
