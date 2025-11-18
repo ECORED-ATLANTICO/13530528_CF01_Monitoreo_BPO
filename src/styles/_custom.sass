@@ -179,7 +179,7 @@ figcaption
 
 //- Tabs A
 .tabs-a__tab
-  background-color: #E4F7C9
+  background-color: #F4E6FE
 .tabs-a__content-item
   display: flex
   height: 100%
@@ -192,6 +192,32 @@ figcaption
 .tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
   background-color: #D1D2F7
   color: var(--black)
+
+//- Tabs A #F4E6FE
+.tabs-a.color-primario .tabs-a__tab__selected
+  background-color: #F1F6F9
+  color: var(--black)
+  // border-left: 5px solid #9000F9
+
+.tabs-a.color-primario .tabs-a__tab__selected:before
+  background-color: #9000F9
+
+.tabs-a.color-primario .tabs-a__tab:hover, .tabs-a.color-primario .tabs-a__tab:active, .tabs-a.color-primario .tabs-a__tab:focus
+  background-color: #D1D2F7
+  color: var(--black)
+
+// color-adicional-1
+.bg-color-adicional-1
+  background-color: #F1F6F9
+
+.img-infografica__card, .img-infografica-b__card
+  width: 502px
+
+// color-adiconal-2
+.bg-color-adicional-2
+  background-color: #A9B2C1
+.color-adicional-2
+  color: #A9B2C1
 
 .tabs-a
   .row
@@ -513,3 +539,22 @@ figcaption
   
 .fontsize-1
   font-size: 1.1rem
+
+.tabla-b.color-secundario 
+  thead
+    border-color: #DC49F8 !important
+    border-top: 5px solid
+    background-color: #FBEDFE !important
+  
+  th, td
+    border-left: 1px solid #ddd
+    border-right: 1px solid #ddd
+
+  th:first-child,
+  td:first-child
+    border-left: none
+
+  th:last-child,
+  td:last-child
+    border-right: none
+    

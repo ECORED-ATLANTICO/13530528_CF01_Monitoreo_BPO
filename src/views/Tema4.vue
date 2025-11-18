@@ -43,27 +43,15 @@
                   | SENA, 2025.
 
             .tarjeta.p-2.px-3(x="16.5%" y="63.5%" numero="+")
-              .row.align-items-center
-                .col-2
-                  h2.mb-0.text-destacado 01
-                .col-10
-                  p.mb-0 Es el punto de partida del proceso. Consiste en capturar información verificada y actualizada sobre la operación del servicio, proveniente de fuentes confiables como CRM, reportes, encuestas o bases de datos. Garantiza la precisión y representatividad de los datos mediante protocolos definidos y registros estructurados.
+              .h5.mb-2.color-adicional-2 01
+                p.p-2 Es el punto de partida del proceso. Consiste en capturar información verificada y actualizada sobre la operación del servicio, proveniente de fuentes confiables como CRM, reportes, encuestas o bases de datos. Garantiza la precisión y representatividad de los datos mediante protocolos definidos y registros estructurados.
             .tarjeta.p-2.px-3(x="50.5%" y="63.5%" numero="+")
-              .row.align-items-center
-                .col-2
-                h2.mb-0.text-destacado 02
-                .col-10
-                  p.mb-0 
-                  b Selección de materiales: 
-                  | elige insumos verdes.
-            .tarjeta.color-acento-botones.p-2.px-3(x="84.6%" y="63.5%" numero="+")
-              .row.align-items-center
-                .col-2
-                h2.mb-0.text-destacado 03
-                .col-10
-                  p.mb-0 
-                  b Producción limpia: 
-                  | menos agua, energía y químicos.
+              .h5.mb-2.color-adicional-2 02
+                p.p-2 Transforma los datos en conocimiento útil. Implica organizar, calcular indicadores, detectar tendencias y causas de desviaciones, utilizando herramientas como Excel o Power BI. Permite comprender el desempeño del servicio con base en evidencia y contexto operativo.
+            .tarjeta.color-acento-botones.p-2.px-3(x="84.6%" y="63.5%" numero="+")              
+              .h5.mb-2.color-adicional-2 03
+                p.p-2 Valida si los resultados cumplen con metas internas, SLA o benchmarks sectoriales. Identifica brechas, mide el grado de cumplimiento y activa acciones correctivas cuando existen desviaciones. Se apoya en comparaciones gráficas o tabulares para una interpretación clara.
+            
 
             
           //- Version movil de la figura
@@ -110,7 +98,7 @@
         .titulo-sexto.mb-4
           h5 Tabla 1. 
           span Comparación entre protocolos internos y normativos
-        .tabla-a.color-secundario
+        .tabla-b.color-secundario
           table
             caption 
               b Fuente: 

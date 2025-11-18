@@ -93,37 +93,21 @@
       .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0
         //- Linea de tiempo
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Diseño sostenible")
-            p.mb-0 Planifica el producto y el proceso con un enfoque ambiental desde su origen. 
-            p 
-              b Ejemplo: 
-              | un electrodoméstico diseñado para ser fácil de desmontar y reciclar.
-
-          .row(numero="2" titulo="Selección de materiales")
-            p.mb-0 Prioriza materias primas recicladas, renovables o de origen local para minimizar impactos ambientales. 
-            p
-              b Ejemplo: 
-              | uso de cartón reciclado en empaques.
-          .row(numero="3" titulo="Producción limpia")
-            p.mb-0 Reduce el consumo de agua, energía y el uso de sustancias tóxicas en los procesos industriales. 
-            p 
-              b Ejemplo: 
-              | uso de tintas vegetales en impresión.
-          .row(numero="4" titulo="Gestión de residuos")
-            p.mb-0 Promueve prácticas de reciclaje, compostaje o disposición final responsable. . 
-            p 
-              b Ejemplo: 
-              | clasificación y compostaje de residuos orgánicos en restaurantes.
-          .row(numero="5" titulo="Distribución eficiente")
-            p.mb-0 Optimiza rutas logísticas y empaques para disminuir emisiones y costos de transporte. 
-            p 
-              b Ejemplo: 
-              | agrupar pedidos y utilizar empaques más ligeros.
-          .row(numero="6" titulo="Mejora continua")
-            p.mb-0 Evalúa el desempeño ambiental de los procesos y aplica acciones correctivas para su optimización. 
-            p.mb-0 
-              b Ejemplo: 
-              | auditorías anuales de sostenibilidad y ajustes en procesos.
+          .row(numero="1" titulo="Descripción del servicio")
+            p.mb-0 Detalla los procesos que serán tercerizados, los canales de atención que se utilizarán (teléfono, chat, correo, redes sociales) y el alcance operativo del servicio. Incluye la definición de horarios, cobertura y segmentación por tipo de cliente, asegurando claridad en lo que el proveedor debe ejecutar.
+            
+          .row(numero="2" titulo="Indicadores de desempeño")
+            p.mb-0 Define los KPIs que permitirán evaluar la calidad, eficiencia y satisfacción del servicio. Entre ellos pueden estar el tiempo de respuesta (TTR), la resolución en primer contacto (FCR), la satisfacción del cliente (CSAT) o la tasa de error. Cada indicador debe tener una fórmula definida, fuente de datos y frecuencia de medición establecida.
+            
+          .row(numero="3" titulo="Niveles mínimos aceptables")
+            p.mb-0 Establece los umbrales de cumplimiento que permiten determinar si el servicio está dentro de los parámetros acordados. Estos valores mínimos se ajustan según el tipo de servicio, canal de atención o segmento del cliente, y sirven como referencia para activar acciones de mejora cuando se presentan desviaciones.
+            
+          .row(numero="4" titulo="Responsabilidades de las partes")
+            p.mb-0 Define los compromisos de cada parte involucrada. El proveedor BPO asume la ejecución, el registro y el seguimiento del servicio, mientras que el cliente debe proporcionar insumos, validar resultados y ofrecer retroalimentación oportuna. Esta claridad previene errores y facilita la gestión del contrato.
+            
+          .row(numero="5" titulo="Mecanismos de seguimiento")
+            p.mb-0 Describe los procedimientos para monitorear el cumplimiento de los acuerdos, incluyendo la frecuencia de los reportes, las herramientas empleadas (CRM, tableros de control, auditorías) y los canales de comunicación. También considera la programación de reuniones de revisión y evaluación de resultados.
+            
   
     separador
 
@@ -142,19 +126,19 @@
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
         .col-12.col-xl-8.mb-4.mb-lg-0
-          TabsA.color-terciario
-            .tarjeta.p-3.px-4(titulo="Reactiva").bg-color-terciario-t5
-              //- img.mb-4(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
-              p actúa por obligación legal, cumpliendo normativas ambientales solo cuando es exigido por las autoridades.
-            .tarjeta.p-3.px-4(titulo="Proactiva").bg-color-terciario-t5
-              //- img.mb-4(src='@/assets/curso/temas/tema3/img12.png', alt='Imagen Decorativa')
-              p Adopta la sostenibilidad como estrategia voluntaria para mejorar su imagen y competitividad en el mercado.
-            .tarjeta.p-3.px-4(titulo="Colaborativa").bg-color-terciario-t5
-              //- img.mb-4(src='@/assets/curso/temas/tema3/img13.png', alt='Imagen Decorativa')
-              p Promueve alianzas con proveedores y socios para gestionar conjuntamente los recursos y reducir impactos ambientales.
-            .tarjeta.p-3.px-4(titulo="Circular").bg-color-terciario-t5
-              //- img.mb-4(src='@/assets/curso/temas/tema3/img14.png', alt='Imagen Decorativa')
-              p Cierra el ciclo productivo mediante el reuso, reciclaje y rediseño de materiales dentro de la economía circular.
+          TabsA.color-primario
+            .tarjeta.p-3.px-4(titulo="Tiempo  de respuesta (TTR)").bg-color-adicional-1
+              p Refleja la rapidez con que un agente inicia la atención tras recibir la solicitud del cliente. Un tiempo breve mejora la experiencia y demuestra eficiencia operativa, especialmente en canales como chat o teléfono, donde la inmediatez define la calidad percibida del servicio.
+            
+            .tarjeta.p-3.px-4(titulo="Tiempo de resolución (TTRS)").bg-color-adicional-1
+              p Evalúa el tiempo total necesario para resolver completamente una solicitud o incidente. Un TTRS corto muestra procesos ágiles, coordinación efectiva entre áreas y personal capacitado para dar soluciones definitivas que mantienen la confianza del cliente.
+
+            .tarjeta.p-3.px-4(titulo="Satisfacción del cliente (CSAT)").bg-color-adicional-1
+              p Mide la percepción del usuario sobre la calidad del servicio recibido. Altos niveles de CSAT reflejan atención amable, comunicación clara y cumplimiento de expectativas, factores que fortalecen la fidelización y la imagen de la empresa BPO.
+
+            .tarjeta.p-3.px-4(titulo="Resolución en primer contacto (FCR)").bg-color-adicional-1
+              p Determina si el requerimiento del cliente fue resuelto desde la primera interacción. Un alto FCR evidencia dominio técnico, gestión eficiente y atención orientada al cliente, reduciendo seguimientos y mejorando la productividad del servicio.
+
 
 </template>
 

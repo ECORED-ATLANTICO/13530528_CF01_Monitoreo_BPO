@@ -64,32 +64,32 @@
     .bg-full-width.bg04
       .row.align-items-center(data-aos="fade-left").mb-4
         .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
-          .tarjeta.p-4.bg03
-            .tarjeta--blanca.p-4
+          .tarjeta.p-5.bg03
+            .tarjeta--blanca
               SlyderA(tipo="b")
-                .tarjeta.p-4
+                .tarjeta.p-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs operativos
-                      p Evalúan la eficiencia y productividad del servicio, midiendo tiempos de atención, volúmenes de gestión y capacidad de respuesta del equipo. Son indicadores cuantitativos que permiten detectar cuellos de botella y optimizar procesos. En entornos BPO, estos datos se utilizan para ajustar la asignación de personal, mejorar los flujos de atención y cumplir con los niveles definidos en los acuerdos de servicio. Si los tiempos promedio superan lo esperado, el equipo revisa el flujo operativo para optimizar la gestión.
+                      p.mb-0 Evalúan la eficiencia y productividad del servicio, midiendo tiempos de atención, volúmenes de gestión y capacidad de respuesta del equipo. Son indicadores cuantitativos que permiten detectar cuellos de botella y optimizar procesos. En entornos BPO, estos datos se utilizan para ajustar la asignación de personal, mejorar los flujos de atención y cumplir con los niveles definidos en los acuerdos de servicio. Si los tiempos promedio superan lo esperado, el equipo revisa el flujo operativo para optimizar la gestión.
                     .col-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
 
-                .tarjeta.p-4
+                .tarjeta.p-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs de calidad
-                      p Miden el cumplimiento de protocolos, estándares y buenas prácticas operativas. Más que evaluar cantidad, se centran en la forma en que se ejecutan las tareas, garantizando consistencia y profesionalismo en cada interacción. En los servicios BPO, se utilizan auditorías y revisiones periódicas para asegurar que los agentes sigan el guion, registren correctamente la información y mantengan la calidad en la atención. Si se identifican errores o desviaciones, se aplican planes de mejora para fortalecer las competencias del equipo.
+                      p.mb-0 Miden el cumplimiento de protocolos, estándares y buenas prácticas operativas. Más que evaluar cantidad, se centran en la forma en que se ejecutan las tareas, garantizando consistencia y profesionalismo en cada interacción. En los servicios BPO, se utilizan auditorías y revisiones periódicas para asegurar que los agentes sigan el guion, registren correctamente la información y mantengan la calidad en la atención. Si se identifican errores o desviaciones, se aplican planes de mejora para fortalecer las competencias del equipo.
                     .col-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img07.png', alt='Imagen Decorativa')
 
-                .tarjeta.p-4
+                .tarjeta.p-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs de experiencia al cliente
-                      p Reflejan la percepción y satisfacción del usuario sobre el servicio recibido. Aunque son indicadores subjetivos, resultan esenciales para mantener la fidelización y fortalecer la reputación del negocio. Estos KPIs se obtienen a partir de encuestas y retroalimentación directa, analizando aspectos como la satisfacción general, la facilidad del proceso y la disposición del cliente a recomendar el servicio. Si se detectan dificultades en la experiencia, el equipo ajusta los canales o el flujo de atención para mejorar la percepción del usuario.
+                      p.mb-0 Reflejan la percepción y satisfacción del usuario sobre el servicio recibido. Aunque son indicadores subjetivos, resultan esenciales para mantener la fidelización y fortalecer la reputación del negocio. Estos KPIs se obtienen a partir de encuestas y retroalimentación directa, analizando aspectos como la satisfacción general, la facilidad del proceso y la disposición del cliente a recomendar el servicio. Si se detectan dificultades en la experiencia, el equipo ajusta los canales o el flujo de atención para mejorar la percepción del usuario.
                     .col-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img08.png', alt='Imagen Decorativa')
@@ -114,49 +114,49 @@
               img(src='@/assets/curso/temas/tema3/img09.png', alt='Imagen Decorativa')
               
           .col-12.col-lg-8.mb-4.mb-lg-0
-            p Los indicadores se alimentan de datos que provienen de diversas fuentes. Según González & Rodríguez (2021), las principales fuentes en BPO son:
-            .custom-slider
-              SlyderF(columnas="col-lg-6 col-xl-6")
-                .tarjeta.shadow.p-4.bg-white.bg-white
-                  .row.justify-content-center.mb-3
-                    .col-6.col-lg-8
-                      img(src='@/assets/curso/temas/tema3/img10.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-120.mb-0
-                  .text-center
-                    H5.bg-color-acento-botones.text-white.py-1 Dashboards  y reportes <br>automáticos
-                    p.mb-0 Visualizan resultados en tiempo real.
-                
-                .tarjeta.shadow.p-5.bg-white.bg-white
-                  .row.justify-content-center.mb-3
-                    .col-6.col-lg-8
-                      img(src='@/assets/curso/temas/tema3/img11.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-120.mb-0
-                  .text-center
-                    H5.bg-color-acento-botones.text-white.py-1 Encuestas de <br>satisfacción
-                    p.mb-0 Capturan la percepción del usuario.
-                
-                .tarjeta.shadow.p-5.bg-white.bg-white
-                  .row.justify-content-center.mb-3
-                    .col-6.col-lg-8
-                      img(src='@/assets/curso/temas/tema3/img12.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-120.mb-0
-                  .text-center
-                    H5.bg-color-acento-botones.text-white.py-1 Sistemas de grabación y<br> monitoreo
-                    p.mb-0 Permiten auditar llamadas y chats.
-                
-                .tarjeta.shadow.p-5.bg-white.bg-white
-                  .row.justify-content-center.mb-3
-                    .col-6.col-lg-8
-                      img(src='@/assets/curso/temas/tema3/img13.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-120.mb-0
-                  .text-center
-                    H5.bg-color-acento-botones.text-white.py-1 Bases de datos <br>operativas
-                    p.mb-0 Consolidan métricas por campaña, agente o canal.
-                
-                .tarjeta.shadow.p-5.bg-white.bg-white
-                  .row.justify-content-center.mb-3
-                    .col-6.col-lg-8
-                      img(src='@/assets/curso/temas/tema3/img14.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-120.mb-0
-                  .text-center
-                    H5.bg-color-acento-botones.text-white.py-1 Sistemas <br>CRM
-                    p.mb-0 Registran interacciones, tiempos, canales y resultados.
-
+            .row.align-items-center
+              .col-12.col-lg-12.mb-4.mb-lg-0
+                p.mb-0 Los indicadores se alimentan de datos que provienen de diversas fuentes. Según González & Rodríguez (2021), las principales fuentes en BPO son:
+              
+              .col-12.col-lg-12.mb-4.mb-lg-0
+                .custom-slider
+                  SlyderF(columnas="col-lg-6 col-xl-6")
+                    .tarjeta.shadow.p-3.bg-white.bg-white
+                      .row.justify-content-center
+                        .col-6.col-lg-8
+                          img(src='@/assets/curso/temas/tema3/img10.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-100
+                      .text-center.p-3.mb-0
+                        H5.bg-color-acento-botones.text-white.py-1 Dashboards y reportes automáticos
+                        p.mb-0 Visualizan resultados en tiempo real.
+                    .tarjeta.shadow.p-3.bg-white.bg-white
+                      .row.justify-content-center
+                        .col-6.col-lg-8
+                          img(src='@/assets/curso/temas/tema3/img11.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-100
+                      .text-center.p-3.mb-0
+                        H5.bg-color-acento-botones.text-white.py-1 Encuestas de satisfacción
+                        p.mb-0 Capturan la percepción del usuario.
+                    .tarjeta.shadow.p-3.bg-white.bg-white
+                      .row.justify-content-center
+                        .col-6.col-lg-8
+                          img(src='@/assets/curso/temas/tema3/img12.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-100
+                      .text-center.p-3.mb-0
+                        H5.bg-color-acento-botones.text-white.py-1 Sistemas de grabación y monitoreo
+                        p.mb-0 Permiten auditar llamadas y chats.
+                    .tarjeta.shadow.p-3.bg-white.bg-white
+                      .row.justify-content-center
+                        .col-6.col-lg-8
+                          img(src='@/assets/curso/temas/tema3/img13.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-100
+                      .text-center.p-3.mb-0
+                        H5.bg-color-acento-botones.text-white.py-1 Bases de datos operativas
+                        p.mb-0 Consolidan métricas por campaña, agente o canal.
+                    .tarjeta.shadow.p-3.bg-white.bg-white
+                      .row.justify-content-center
+                        .col-6.col-lg-8
+                          img(src='@/assets/curso/temas/tema3/img14.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-100
+                      .text-center.p-3.mb-0
+                        H5.bg-color-acento-botones.text-white.py-1 Sistemas CRM
+                        p.mb-0 Registran interacciones, tiempos, canales y resultados.
+          
       .container.mb-1
         .row.align-items-center.bg-color-secundario-s5.p-4(data-aos="fade-left")
           .col-12.col-md-6.col-lg-1.mx-auto
