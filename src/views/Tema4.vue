@@ -34,7 +34,7 @@
             h5 Figura 2. 
               span Fases clave en la producción sostenible
 
-          ImagenInfografica.d-none.d-lg-block.img-infografica.color-primario
+          ImagenInfografica.d-none.d-lg-block.img-infografica.color-acento-botones
             template(v-slot:imagen)
               figure
                 img.mb-3(src='@/assets/curso/temas/tema4/img02.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')

@@ -17,34 +17,34 @@
           .col-12.col-md-12.col-lg-9
             p  Los Acuerdos de Niveles de Servicio, conocidos como SLA por sus siglas en inglés (Service Level Agreement), son el corazón operativo de cualquier modelo de negocio BPO, a través de estos acuerdos se definen las expectativas, responsabilidades y métricas que regulan la relación entre el proveedor del servicio y el cliente. 
     
-            .cajon.bg-color-primario-p10.p-4.mb-4
+            .cajon.bg-color-primario-p10.p-4
               p.mb-0 En el ámbito del servicio al cliente, los SLA permiten definir tiempos de respuesta, niveles de resolución y parámetros de satisfacción que garantizan una atención oportuna y efectiva. Comprender su estructura, los indicadores que los sustentan y su aplicación en los diferentes tipos de servicio es clave para mantener la coherencia en la evaluación, optimizar la operación y asegurar una experiencia positiva para el usuario.
 
       separador
 
-    //- Titulo
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_1 2.1 Concepto
+      //- Titulo
+      .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2#t_2_1 2.1 Concepto
 
     //- Col3 y Col9
     .container.mb-0
       .row.align-items-center.justify-content-center(data-aos="fade-left").mb-2
-        .col-12.col-md-12.col-lg-10
+        .col-12.col-md-12.col-lg-10.mb-4
           p Un SLA es un contrato operativo que establece los parámetros de calidad, eficiencia y oportunidad que debe cumplir un servicio tercerizado. 
           .bloque-texto-b.color-terciario
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0.ps-3 Según Zendesk (s.f.),
+              h4.mb-0.ps-3 Según Zendesk (s.f.), 
               p.mb-0 estos acuerdos permiten al cliente definir con precisión las expectativas sobre tiempos de respuesta, resolución de solicitudes, disponibilidad y satisfacción del usuario. Constituyen una guía de gestión que orienta la operación, facilita el control del desempeño y promueve relaciones basadas en la transparencia y el cumplimiento de compromisos.
               i.fas.fa-quote-right
 
         .col-12.col-md-12.col-lg-2
           figure
-            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img02.png', alt='Imagen Decorativa')
+            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img02.svg', alt='Imagen Decorativa')
 
     separador
 
-    //- Titulo
+
     .bg-full-width.bg01
 
       //- Titulo
@@ -126,17 +126,17 @@
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
         .col-12.col-xl-8.mb-4.mb-lg-0
-          TabsA.color-primario
-            .tarjeta.p-3.px-4(titulo="Tiempo  de respuesta (TTR)").bg-color-adicional-1
+          TabsA.color-terciario
+            .tarjeta.p-3.px-4(titulo="Tiempo  de respuesta (TTR)").bg-color-adicional-1.d-flex.align-items-center
               p Refleja la rapidez con que un agente inicia la atención tras recibir la solicitud del cliente. Un tiempo breve mejora la experiencia y demuestra eficiencia operativa, especialmente en canales como chat o teléfono, donde la inmediatez define la calidad percibida del servicio.
             
-            .tarjeta.p-3.px-4(titulo="Tiempo de resolución (TTRS)").bg-color-adicional-1
+            .tarjeta.p-3.px-4(titulo="Tiempo de resolución (TTRS)").bg-color-adicional-1.d-flex.align-items-center
               p Evalúa el tiempo total necesario para resolver completamente una solicitud o incidente. Un TTRS corto muestra procesos ágiles, coordinación efectiva entre áreas y personal capacitado para dar soluciones definitivas que mantienen la confianza del cliente.
 
-            .tarjeta.p-3.px-4(titulo="Satisfacción del cliente (CSAT)").bg-color-adicional-1
+            .tarjeta.p-3.px-4(titulo="Satisfacción del cliente (CSAT)").bg-color-adicional-1.d-flex.align-items-center
               p Mide la percepción del usuario sobre la calidad del servicio recibido. Altos niveles de CSAT reflejan atención amable, comunicación clara y cumplimiento de expectativas, factores que fortalecen la fidelización y la imagen de la empresa BPO.
 
-            .tarjeta.p-3.px-4(titulo="Resolución en primer contacto (FCR)").bg-color-adicional-1
+            .tarjeta.p-3.px-4(titulo="Resolución en primer<br> contacto (FCR)").bg-color-adicional-1.d-flex.align-items-center
               p Determina si el requerimiento del cliente fue resuelto desde la primera interacción. Un alto FCR evidencia dominio técnico, gestión eficiente y atención orientada al cliente, reduciendo seguimientos y mejorando la productividad del servicio.
 
 

@@ -17,7 +17,12 @@
         .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0
           p El componente formativo <b>Servicios BPO</b> ofrece al aprendiz herramientas técnicas y prácticas para abordar el monitoreo del desempeño en los procesos de externalización de servicios empresariales. 
           
-          p A partir del conocimiento de los modelos de negocio, los niveles de servicio y los indicadores de gestión, se fortalecen las competencias necesarias para establecer métricas que garanticen la eficiencia, la calidad y el cumplimiento de los objetivos organizacionales. 
+            .row
+              .col-12.col-lg-1.d-none.d-d-lg-block
+                figure
+                  img.mb-4.mb-lg-0(src='@/assets/curso/intro/img02.svg', alt='Imagen Decorativa').w-auto
+              .col-12.col-lg-11
+                p A partir del conocimiento de los modelos de negocio, los niveles de servicio y los indicadores de gestión, se fortalecen las competencias necesarias para establecer métricas que garanticen la eficiencia, la calidad y el cumplimiento de los objetivos organizacionales. 
 
 
           .cajon.bg-color-acento-contenido-p10.p-4.mb-4
@@ -28,7 +33,7 @@
     // Video
     figure.mb-5
       .video.mb-2
-        //- iframe(width="560" height="315" src="https://www.youtube.com/embed/_AEo02CGe0o?si=GrS0x9a8Z2rwElJl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/_AEo02CGe0o?si=GrS0x9a8Z2rwElJl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Fuente: SENA, 2025.
 
 </template>

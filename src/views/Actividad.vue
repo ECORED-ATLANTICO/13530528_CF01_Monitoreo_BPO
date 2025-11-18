@@ -20,7 +20,7 @@ export default {
       tema: 'Evaluando con propósito en servicios BPO',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión del aprendiz sobre los conceptos, indicadores y procedimientos de evaluación del desempeño en servicios BPO, promoviendo el análisis crítico y la aplicación práctica del conocimiento.',
+        '<b> Objetivo:</b> evaluar la comprensión del aprendiz sobre los conceptos, indicadores y procedimientos de evaluación del desempeño en servicios BPO, promoviendo el análisis crítico y la aplicación práctica del conocimiento.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -43,11 +43,11 @@ export default {
         {
           id: 2,
           texto:
-            'Los servicios front office tienen contacto directo con el cliente.',
+            'Los servicios <em>front office</em> tienen contacto directo con el cliente.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'VOPCION1erdadero', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
@@ -58,7 +58,7 @@ export default {
         {
           id: 3,
           texto:
-            'El back office se caracteriza por procesos visibles para el cliente.',
+            'El <em>back office</em> se caracteriza por procesos visibles para el cliente.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

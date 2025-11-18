@@ -6,12 +6,28 @@
       .titulo-principal__numero
         span 1
       h1 Modelos de negocio
- 
+    
+
+    //- Col4 y Col8
+    .container.mb-4
+      .row.align-items-center(data-aos="fade-left")
+        .col-12.col-md-12.col-lg-8
+          p El sector BPO 
+            i (Business Process Outsourcing) 
+            | ha revolucionado la forma en que las organizaciones administran sus operaciones, al permitir la delegación de procesos no estratégicos a proveedores especializados que optimizan recursos, reducen costos y mejoran la calidad del servicio.
+          .cajon.bg-color-secundario-s10.p-4.mb-4
+            p.mb-0 Un modelo de negocio en BPO define la estructura mediante la cual se ofrecen los servicios, su clasificación y los tipos de clientes o segmentos de mercado que se atienden. Comprender estos elementos resulta esencial para caracterizar correctamente el servicio, establecer métricas de evaluación coherentes con la dinámica operativa y asegurar la alineación con los objetivos estratégicos de la organización.
+
+        .col-12.col-md-12.col-lg-4
+          figure
+            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
+        
+
     //- Titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.1 Concepto
 
-    //- Col3 y Col9
+    //- Col4 y Col8
     .container.mb-0
       .row.align-items-center(data-aos="fade-left")
         .col-12.col-md-12.col-lg-4
@@ -40,7 +56,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img02.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 En el mundo del <em>Business Process Outsourcing</em> (BPO), los servicios se clasifican según el tipo de interacción que tienen con el cliente y el nivel de visibilidad dentro de la operación, esta clasificación permite organizar los equipos, definir indicadores específicos y establecer protocolos técnicos adecuados. Según LatinWeb (2025), existen tres grandes tipos de servicios BPO: front office, back office y mixtos, cada uno con características particulares que responden a necesidades distintas del negocio.
+              p.mb-0 En el mundo del <em>Business Process Outsourcing</em> (BPO), los servicios se clasifican según el tipo de interacción que tienen con el cliente y el nivel de visibilidad dentro de la operación, esta clasificación permite organizar los equipos, definir indicadores específicos y establecer protocolos técnicos adecuados. Según LatinWeb (2025), existen tres grandes tipos de servicios BPO: <em>front office, back office</em> y mixtos, cada uno con características particulares que responden a necesidades distintas del negocio.
 
 
           TabsB.color-primario

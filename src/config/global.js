@@ -6,18 +6,18 @@ export default {
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      // {
-      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      // },
-      // {
-      //   clases: ['banner-principal-decorativo-2'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      // },
-      // {
-      //   clases: ['banner-principal-decorativo-3'],
-      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
-      // },
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
     ],
   },
   menuPrincipal: {
@@ -183,14 +183,14 @@ export default {
     {
       tema: 'Niveles de servicio',
       referencia:
-        'Da Silva, D. (s.f.). 6 métodos simples para la evaluación del servicio al cliente. Zendesk.',
+        'Da Silva, D. (s.f.). <em>6 métodos simples para la evaluación del servicio al cliente.</em> Zendesk.',
       tipo: 'Artículo',
       link: 'https://www.zendesk.com.mx/blog/evaluacion-servicio-al-cliente/',
     },
     {
       tema: 'Modelos de negocio',
       referencia:
-        'ESIC Business & Marketing School. (2025). BPO: qué es, cómo funciona y ejemplos.',
+        'ESIC Business & Marketing School. (2025).<em> BPO: qué es, cómo funciona y ejemplos.</em>',
       tipo: 'Artículo',
       link:
         'https://www.esic.edu/rethink/marketing-y-comunicacion/bpo-que-es-como-funciona-y-ejemplos-c',
@@ -251,28 +251,28 @@ export default {
   referencias: [
     {
       referencia:
-        'Castellaños, P., & Farias, P. (2011). Estructuración de un modelo de servicio para el sector de Servicios tercerizados a distancia BPO&O. Universidad EAN.',
+        'Castellaños, P., & Farias, P. (2011). <em>Estructuración de un modelo de servicio para el sector de Servicios tercerizados a distancia BPO&O. </em>Universidad EAN.',
       link: '',
     },
     {
       referencia:
-        'Da Silva, D. (s.f.). 6 métodos simples para la evaluación del servicio al cliente. Zendesk.',
+        'Da Silva, D. (s.f.). <em>6 métodos simples para la evaluación del servicio al cliente.</em> Zendesk.',
       link: 'https://www.zendesk.com.mx/blog/evaluacion-servicio-al-cliente/',
     },
     {
       referencia:
-        'ESIC Business & Marketing School. (2025, mayo). BPO: qué es, cómo funciona y ejemplos. ESIC Rethink.',
+        'ESIC Business & Marketing School. (2025, mayo). <em>BPO: qué es, cómo funciona y ejemplos.</em> ESIC Rethink.',
       link:
         'https://www.esic.edu/rethink/marketing-y-comunicacion/bpo-que-es-como-funciona-y-ejemplos-c',
     },
     {
       referencia:
-        'Montoya, C. A. (2009). Evaluación del desempeño como herramienta para el análisis del capital humano. Revista Científica Visión de Futuro, 11(1), Universidad Nacional de Misiones.',
+        'Montoya, C. A. (2009).<em> Evaluación del desempeño como herramienta para el análisis del capital humano.</em> Revista Científica Visión de Futuro, 11(1), Universidad Nacional de Misiones.',
       link: 'https://www.redalyc.org/pdf/3579/357935472005.pdf',
     },
     {
       referencia:
-        'Sánchez Torres, W. C., Delgado Vélez, L. D., Gaviria Martínez, L. F., Montoya Ríos, F. J., & Ángel Rodrigo, V. B. (2014). Una mirada analítica al sector de BPO en Colombia y Antioquia. Institución Universitaria Esumer.',
+        'Sánchez Torres, W. C., Delgado Vélez, L. D., Gaviria Martínez, L. F., Montoya Ríos, F. J., & Ángel Rodrigo, V. B. (2014).<em> Una mirada analítica al sector de BPO en Colombia y Antioquia.</em> Institución Universitaria Esumer.',
       link:
         'https://repositorio.esumer.edu.co/items/4b4072cd-7176-43da-a7b1-ede5d4e39690',
     },
