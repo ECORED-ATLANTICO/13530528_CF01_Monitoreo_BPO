@@ -35,7 +35,7 @@
                   p.mb-0 los indicadores deben ser relevantes, medibles, comparables y alineados con los objetivos estratégicos. En servicios BPO, los indicadores permiten validar aspectos como eficiencia operativa, calidad del servicio, experiencia del cliente y cumplimiento de acuerdos contractuales.
                   i.fas.fa-quote-right
 
-            .col-12.col-md-12.col-lg-4
+            .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img02.png', alt='Imagen Decorativa')
 
@@ -43,7 +43,7 @@
       .row.align-items-center.bg-color-terciario-t20.p-4(data-aos="fade-left")
         .col-12.col-md-6.col-lg-1.mx-auto
           figure
-            img.mb-4.mb-lg-0.mx-auto.w-auto(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen Decorativa')
+            img.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen Decorativa')
         .col-12.col-md-12.col-lg-11
           p.mb-0 Por ejemplo, el tiempo promedio de respuesta (TTR) es un indicador que refleja la agilidad del servicio, mientras que la satisfacción del cliente (CSAT) mide la percepción del usuario. Ambos son esenciales para entender si el servicio está cumpliendo con lo prometido. Un buen indicador no solo mide, también orienta y transforma.
 
@@ -55,7 +55,7 @@
       h2#t_3_2 3.2 Tipos
     
     .row.align-items-center(data-aos="fade-left").mb-5
-      .col-12.col-md-12.col-lg-3
+      .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
         figure
           img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img04.png', alt='Imagen Decorativa')
       .col-12.col-md-12.col-lg-9
@@ -66,33 +66,33 @@
     .bg-full-width.bg04
       .row.align-items-center(data-aos="fade-left").mb-4
         .col-12.col-md-12.col-lg-12.mb-4.mb-lg-0
-          .tarjeta.p-5.bg03
-            .tarjeta--blanca
+          .tarjeta.p-3.p-lg-5.bg03
+            .tarjeta--blanca.p-2.p-lg-2
               SlyderA(tipo="b")
-                .tarjeta.p-5
+                .tarjeta.p-3.p-lg-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs operativos
                       p.mb-0 Evalúan la eficiencia y productividad del servicio, midiendo tiempos de atención, volúmenes de gestión y capacidad de respuesta del equipo. Son indicadores cuantitativos que permiten detectar cuellos de botella y optimizar procesos. En entornos BPO, estos datos se utilizan para ajustar la asignación de personal, mejorar los flujos de atención y cumplir con los niveles definidos en los acuerdos de servicio. Si los tiempos promedio superan lo esperado, el equipo revisa el flujo operativo para optimizar la gestión.
-                    .col-12.col-md-8.col-lg-4.mx-auto
+                    .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
 
-                .tarjeta.p-5
+                .tarjeta.p-3.p-lg-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs de calidad
                       p.mb-0 Miden el cumplimiento de protocolos, estándares y buenas prácticas operativas. Más que evaluar cantidad, se centran en la forma en que se ejecutan las tareas, garantizando consistencia y profesionalismo en cada interacción. En los servicios BPO, se utilizan auditorías y revisiones periódicas para asegurar que los agentes sigan el guion, registren correctamente la información y mantengan la calidad en la atención. Si se identifican errores o desviaciones, se aplican planes de mejora para fortalecer las competencias del equipo.
-                    .col-12.col-md-8.col-lg-4.mx-auto
+                    .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img07.png', alt='Imagen Decorativa')
 
-                .tarjeta.p-5
+                .tarjeta.p-3.p-lg-5
                   .row.align-items-center
                     .col-12.col-lg-8
                       h5.mb-4 KPIs de experiencia al cliente
                       p.mb-0 Reflejan la percepción y satisfacción del usuario sobre el servicio recibido. Aunque son indicadores subjetivos, resultan esenciales para mantener la fidelización y fortalecer la reputación del negocio. Estos KPIs se obtienen a partir de encuestas y retroalimentación directa, analizando aspectos como la satisfacción general, la facilidad del proceso y la disposición del cliente a recomendar el servicio. Si se detectan dificultades en la experiencia, el equipo ajusta los canales o el flujo de atención para mejorar la percepción del usuario.
-                    .col-12.col-md-8.col-lg-4.mx-auto
+                    .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
                       figure
                         img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img08.png', alt='Imagen Decorativa')
 
@@ -111,7 +111,7 @@
       //- Col8 (Slider) y Col4
       .container(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
+          .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/temas/tema3/img09.png', alt='Imagen Decorativa')
               

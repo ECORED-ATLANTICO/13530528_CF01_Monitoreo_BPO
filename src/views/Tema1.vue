@@ -18,7 +18,7 @@
           .cajon.bg-color-secundario-s10.p-4.mb-4
             p.mb-0 Un modelo de negocio en BPO define la estructura mediante la cual se ofrecen los servicios, su clasificación y los tipos de clientes o segmentos de mercado que se atienden. Comprender estos elementos resulta esencial para caracterizar correctamente el servicio, establecer métricas de evaluación coherentes con la dinámica operativa y asegurar la alineación con los objetivos estratégicos de la organización.
 
-        .col-12.col-md-12.col-lg-4
+        .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
         
@@ -30,7 +30,7 @@
     //- Col4 y Col8
     .container.mb-0
       .row.align-items-center(data-aos="fade-left")
-        .col-12.col-md-12.col-lg-4
+        .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
         .col-12.col-md-12.col-lg-8
@@ -62,7 +62,7 @@
           TabsB.color-primario
             .py-4.py-md-5(titulo="Front office" :icono="require('@/assets/curso/temas/tema1/img06.svg')")
               .row.align-items-center
-                .col-12.col-md-12.col-lg-3
+                .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-9
@@ -70,7 +70,7 @@
 
             .py-4.py-md-5(titulo="Back office" :icono="require('@/assets/curso/temas/tema1/img07.svg')")
               .row.align-items-center
-                .col-12.col-md-12.col-lg-3
+                .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-9
@@ -78,7 +78,7 @@
 
             .py-4.py-md-5(titulo="Servicios mixtos" :icono="require('@/assets/curso/temas/tema1/img08.svg')")
               .row.align-items-center
-                .col-12.col-md-12.col-lg-3
+                .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img05.png', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-9
@@ -105,7 +105,7 @@
                     p.mb-0 El BPO atiende diversos segmentos de mercado, desde telecomunicaciones y banca hasta salud, retail y tecnología, cada segmento tiene necesidades específicas que definen el tipo de servicio, los indicadores de gestión y los protocolos operativos. 
 
         .row.align-items-center.justify-content-center(data-aos="fade-left").mb-5
-          .col-12.col-md-12.col-lg-3
+          .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa')
 
@@ -121,7 +121,7 @@
           .col-12.col-md-12.col-lg-10
             //- Acordion
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-              .row(titulo="Telecomunicaciones").justify-content-center.align-items-center.p-2
+              .row(titulo="Telecomunicaciones").justify-content-center.align-items-center.p-2.pl-lg-3
                 .col-12.col-md-8.col-lg-2
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')

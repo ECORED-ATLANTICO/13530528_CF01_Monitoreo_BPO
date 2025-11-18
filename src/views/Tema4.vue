@@ -9,7 +9,7 @@
 
     
     .row.align-items-center(data-aos="fade-left").mb-0
-      .col-12.col-md-12.col-lg-3
+      .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
         figure
           img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img01.png', alt='Imagen Decorativa')
       .col-12.col-md-12.col-lg-9
@@ -64,9 +64,9 @@
 
 
     .row.align-items-center(data-aos="fade-left").mb-5
-      .col-12.col-md-12.col-lg-2
+      .col-12.col-sm-12.col-md-8.col-lg-2.mx-auto
         figure
-          img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img02.png', alt='Imagen Decorativa').mx-auto.w-auto
+          img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img02.png', alt='Imagen Decorativa')
       .col-12.col-md-12.col-lg-10
         p Los protocolos internos y normativos son el conjunto de reglas, procedimientos y estándares que orientan cómo debe realizarse la evaluación del desempeño en un entorno BPO, estos protocolos no solo aseguran la coherencia técnica del proceso, sino que también protegen la integridad del servicio, la transparencia de los resultados y la confianza entre cliente y proveedor.
 
@@ -99,8 +99,7 @@
         .tabla-b.color-secundario
           table
             caption 
-              b Fuente: 
-              | SENA, 2025 con base en Rodríguez Orozco (2018) y Arrizabalaga (2019)
+              <b>Fuente: </b> SENA, 2025 con base en Rodríguez Orozco (2018) y Arrizabalaga (2019)
             thead
               tr
                 th Aspecto
@@ -137,13 +136,13 @@
     .container.mb-5
       .row.align-items-center(data-aos="fade-left").mb-2
         
-        .col-12.col-md-12.col-lg-4
+        .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img05.png', alt='Imagen Decorativa')
 
         .col-12.col-md-12.col-lg-8
           p La documentación constituye un componente esencial del proceso de evaluación del desempeño, ya que garantiza la trazabilidad, transparencia y consistencia de los resultados obtenidos. Los formatos técnicos empleados permiten registrar de manera estructurada los hallazgos, evidencias, indicadores y recomendaciones, asegurando que cada etapa del proceso quede debidamente soportada.
-          .bloque-texto-b.color-terciario.mb-3
+          .bloque-texto-b.color-terciario.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
               h4.mb-0.ps-3 De acuerdo con Rodríguez Orozco (2018),

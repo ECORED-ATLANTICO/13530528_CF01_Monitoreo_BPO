@@ -11,7 +11,7 @@
     //- Col8 y Col4
     .container.mb-5
       .row.align-items-center(data-aos="fade-left")
-        .col-12.col-md-12.col-lg-4.mb-4.mb-lg-0
+        .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto.mb-4.mb-lg-0
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/intro/img01.png', alt='Imagen Decorativa')
         .col-12.col-md-12.col-lg-8.mb-4.mb-lg-0

@@ -2,19 +2,19 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 10%
-    left: 10%
+    top: 61%
+    left: -2%
 
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 0%
+    top: 6%
+    right: 45%
   &-3
     animation: float1 1.8s ease-in-out infinite alternate
     position: absolute
-    top: 61%
-    left: 25%
+    top: 58%
+    left: 45%
 
 @keyframes float1
   0%
@@ -561,3 +561,11 @@ figcaption
   th:last-child,
   td:last-child
     border-right: none
+
+table caption
+  font-weight: normal !important    
+
+// en mobile quitarle el padding-left
+@media (max-width: 576px)
+  .acordion .tarjeta .acordion__contenido
+    padding-left: 1rem !important

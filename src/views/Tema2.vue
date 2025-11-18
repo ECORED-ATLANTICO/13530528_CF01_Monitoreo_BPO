@@ -11,7 +11,7 @@
     .bg-full-width.bg02
       .container.mb-0
         .row.align-items-center.justify-content-center(data-aos="fade-left")
-          .col-12.col-md-12.col-lg-3
+          .col-12.col-sm-12.col-md-8.col-lg-3
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen Decorativa')
           .col-12.col-md-12.col-lg-9
@@ -38,7 +38,7 @@
               p.mb-0 estos acuerdos permiten al cliente definir con precisión las expectativas sobre tiempos de respuesta, resolución de solicitudes, disponibilidad y satisfacción del usuario. Constituyen una guía de gestión que orienta la operación, facilita el control del desempeño y promueve relaciones basadas en la transparencia y el cumplimiento de compromisos.
               i.fas.fa-quote-right
 
-        .col-12.col-md-12.col-lg-2
+        .col-12.col-sm-12.col-md-8.mx-auto.col-lg-2
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img02.svg', alt='Imagen Decorativa')
 
@@ -60,7 +60,7 @@
                 p.mb-0 La estructura de un SLA (Acuerdo de Nivel de Servicio) es un documento técnico-operativo que define de manera detallada las expectativas del servicio, los métodos de medición, las responsabilidades de las partes involucradas y las acciones correspondientes ante los diferentes niveles de desempeño. 
 
       .row.align-items-center.justify-content-center(data-aos="fade-left").mb-5
-        .col-12.col-md-12.col-lg-3
+        .col-12.col-sm-12.col-md-8.mx-auto.col-lg-3
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img04.png', alt='Imagen Decorativa')
 
@@ -80,11 +80,11 @@
             h5 Figura 1. 
               span Componentes de la estructura SLA
           figure.mb-4
-            img(src='@/assets/curso/temas/tema2/img05.svg', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema2/img05.png', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
 
           //- Version movil de la figura
-          figure.d-block.d-lg-none
-            img(src='@/assets/curso/temas/tema2/img05_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+          figure.d-block.d-md-none.d-lg-none
+            img(src='@/assets/curso/temas/tema2/img05_1.png', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
 
           figcaption 
             b Fuente: 
