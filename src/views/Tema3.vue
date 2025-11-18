@@ -43,7 +43,7 @@
       .row.align-items-center.bg-color-secundario-s5.p-4(data-aos="fade-left")
         .col-12.col-md-6.col-lg-1.mx-auto
           figure
-            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen Decorativa')
+            img.mb-4.mb-lg-0.mx-auto.w-auto(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen Decorativa')
         .col-12.col-md-12.col-lg-11
           p.mb-0 Por ejemplo, el tiempo promedio de respuesta (TTR) es un indicador que refleja la agilidad del servicio, mientras que la satisfacción del cliente (CSAT) mide la percepción del usuario. Ambos son esenciales para entender si el servicio está cumpliendo con lo prometido. Un buen indicador no solo mide, también orienta y transforma.
 
@@ -161,7 +161,7 @@
         .row.align-items-center.bg-color-secundario-s5.p-4(data-aos="fade-left")
           .col-12.col-md-6.col-lg-1.mx-auto
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img16.svg', alt='Imagen Decorativa')
+              img.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema3/img16.svg', alt='Imagen Decorativa')
           .col-12.col-md-12.col-lg-11
             p.mb-0 Es fundamental comprender que la calidad del dato determina la calidad del indicador. Si los datos están incompletos, desactualizados o mal registrados, el análisis será erróneo y las decisiones equivocadas. Por ejemplo, si el CRM no registra correctamente el canal de atención, no se podrá segmentar el TTR por tipo de interacción, lo que limita la capacidad de análisis.
   
