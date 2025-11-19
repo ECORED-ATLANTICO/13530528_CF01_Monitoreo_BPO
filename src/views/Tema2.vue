@@ -60,9 +60,10 @@
                 p.mb-0 La estructura de un SLA (Acuerdo de Nivel de Servicio) es un documento técnico-operativo que define de manera detallada las expectativas del servicio, los métodos de medición, las responsabilidades de las partes involucradas y las acciones correspondientes ante los diferentes niveles de desempeño. 
 
       .row.align-items-center.justify-content-center(data-aos="fade-left").mb-5
+        .col-1
         .col-12.col-sm-12.col-md-8.mx-auto.col-lg-3
           figure
-            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img04.png', alt='Imagen Decorativa')
+            img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img04.svg', alt='Imagen Decorativa')
 
         .col-12.col-md-12.col-lg-7
           .bloque-texto-b.color-terciario
@@ -71,6 +72,7 @@
               h4.mb-0.ps-3 Según González & Rodríguez (2021),
               p.mb-0  un SLA bien estructurado debe ser claro, medible, alcanzable y coherente con los objetivos estratégicos del negocio, garantizando la gestión efectiva y la mejora continua del servicio. Un SLA típico en el contexto BPO incluye los siguientes componentes:
               i.fas.fa-quote-right
+        .col-1
       
     .row.align-items-center.justify-content-center(data-aos="fade-left")
       .col-12.col-md-12.col-lg-8
@@ -80,11 +82,11 @@
             h5 Figura 1. 
               span Componentes de la estructura SLA
           figure.mb-4
-            img(src='@/assets/curso/temas/tema2/img05.png', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema2/img05.svg', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
 
           //- Version movil de la figura
           figure.d-block.d-md-none.d-lg-none
-            img(src='@/assets/curso/temas/tema2/img05_1.png', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+            img(src='@/assets/curso/temas/tema2/img05_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
 
           figcaption 
             b Fuente: 

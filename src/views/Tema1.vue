@@ -124,42 +124,42 @@
               .row(titulo="Telecomunicaciones").justify-content-center.align-items-center.p-2.pl-lg-3
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img11.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Atiende una alta demanda de soporte técnico y servicio al cliente, priorizando la agilidad en la respuesta. Combina servicios <em> front office</em> y mixtos, donde se emplean indicadores como TTR, FCR y CSAT para medir la eficiencia y la satisfacción. Los protocolos operativos incluyen el uso de scripts estandarizados, procesos de escalamiento y monitoreo continuo para asegurar la calidad en la atención.
 
               .row(titulo="Financiero").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Requiere servicios de alta seguridad, trazabilidad y cumplimiento normativo. Predominan los servicios <em> back office </em> y mixtos, con indicadores como tasa de error, cumplimiento de plazos y tiempos de respuesta. Los protocolos operativos se basan en validación de datos, autenticación de usuarios y auditorías periódicas, garantizando confiabilidad y transparencia en las transacciones.
                   
               .row(titulo="Salud").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Exige un manejo cuidadoso de la información, con altos niveles de confidencialidad, precisión y empatía. Se implementan servicios <em> front office</em> y <em>back office</em> que utilizan indicadores como exactitud, tiempo de atención y cumplimiento de normativas. Los protocolos incluyen protección de datos, clasificación de solicitudes (triage) y seguimiento de casos, asegurando atención humanizada y segura.
                   
               .row(titulo="<em>Retail y e-commerce</em>").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Enfocado en la multicanalidad, la gestión de devoluciones y el seguimiento de pedidos. Opera mediante servicios <em> front office</em> o mixtos, donde se monitorean indicadores como nivel de entrega, devoluciones y satisfacción del cliente. Los protocolos operativos comprenden el uso de CRM, gestión de pedidos y atención de reclamos, optimizando la experiencia del usuario final.
                   
               .row(titulo="Tecnología").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Requiere soporte técnico especializado y disponibilidad 24 / 7. Se utilizan servicios <em> front office</em> o mixtos, medidos por indicadores como resolución en primer contacto, escalamiento y NPS (<em>Net Promoter Score</em>). Los protocolos incluyen bases de conocimiento actualizadas, sistemas de <em>tickets</em> y soporte remoto, garantizando continuidad operativa y alta satisfacción del usuario.
                   
               .row(titulo="Gobierno").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2
                   figure
-                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen Decorativa')
+                    img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
                   p.mb-0 Se orienta a la transparencia, atención ciudadana y cumplimiento legal. Combina servicios <em> front office</em> y<em>  back office</em>, con indicadores como tiempo de respuesta, cobertura y cumplimiento de normativas. Los protocolos operativos contemplan atención ciudadana, trazabilidad de casos y gestión por procesos, fortaleciendo la eficiencia institucional y la confianza pública.
                   
