@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+https://ecored-atlantico.github.io/13530528_CF01_Monitoreo_BPO/#/
 
 #
 
