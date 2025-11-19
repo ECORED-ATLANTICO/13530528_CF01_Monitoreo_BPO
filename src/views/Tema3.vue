@@ -26,7 +26,7 @@
 
         .container.mb-4
           .row.align-items-center.justify-content-center(data-aos="fade-left").mb-2
-            .col-12.col-md-12.col-lg-8
+            .col-12.col-md-12.col-lg-8.order-2.order-lg-1
               p Un indicador de gestión es una medida cuantitativa o cualitativa que permite evaluar el desempeño de un proceso, servicio o actividad.
               .bloque-texto-b.color-terciario
                 .bloque-texto-b__texto
@@ -35,7 +35,7 @@
                   p.mb-0 los indicadores deben ser relevantes, medibles, comparables y alineados con los objetivos estratégicos. En servicios BPO, los indicadores permiten validar aspectos como eficiencia operativa, calidad del servicio, experiencia del cliente y cumplimiento de acuerdos contractuales.
                   i.fas.fa-quote-right
 
-            .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
+            .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto.order-1.order-lg-2
               figure
                 img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img02.png', alt='Imagen Decorativa')
 

@@ -162,7 +162,9 @@ figcaption
 
 // width
 .h-icons
-  height: 105px !important
+  height: 105px
+  @media (max-width: 768px)
+    height: 150px
 
 // icono inferior derecha
 .icono-inferior
@@ -563,7 +565,7 @@ figcaption
     border-right: none
 
 table caption
-  font-weight: normal !important    
+    font-weight: normal !important
 
 // en mobile quitarle el padding-left
 @media (max-width: 576px)

@@ -34,7 +34,9 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/_AEo02CGe0o?si=GrS0x9a8Z2rwElJl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Fuente: SENA, 2025.
+      figcaption 
+        b Fuente: 
+        | SENA, 2025.
 
 </template>
 
