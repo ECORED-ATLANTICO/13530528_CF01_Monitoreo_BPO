@@ -107,7 +107,7 @@
         .row.align-items-center.justify-content-center(data-aos="fade-left").mb-5
           .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
             figure
-              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen Decorativa')
+              img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img10.svg', alt='Imagen Decorativa')
 
           .col-12.col-md-12.col-lg-7
             .bloque-texto-b.color-terciario
