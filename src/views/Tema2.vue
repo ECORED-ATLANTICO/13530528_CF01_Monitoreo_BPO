@@ -15,7 +15,7 @@
             figure
               img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen Decorativa')
           .col-12.col-md-12.col-lg-9
-            p  Los Acuerdos de Niveles de Servicio, conocidos como SLA por sus siglas en inglés (Service Level Agreement), son el corazón operativo de cualquier modelo de negocio BPO, a través de estos acuerdos se definen las expectativas, responsabilidades y métricas que regulan la relación entre el proveedor del servicio y el cliente. 
+            p  Los Acuerdos de Niveles de Servicio, conocidos como SLA por sus siglas en inglés (<em>Service Level Agreement</em>), son el corazón operativo de cualquier modelo de negocio BPO, a través de estos acuerdos se definen las expectativas, responsabilidades y métricas que regulan la relación entre el proveedor del servicio y el cliente. 
     
             .cajon.bg-color-primario-p10.p-4
               p.mb-0 En el ámbito del servicio al cliente, los SLA permiten definir tiempos de respuesta, niveles de resolución y parámetros de satisfacción que garantizan una atención oportuna y efectiva. Comprender su estructura, los indicadores que los sustentan y su aplicación en los diferentes tipos de servicio es clave para mantener la coherencia en la evaluación, optimizar la operación y asegurar una experiencia positiva para el usuario.

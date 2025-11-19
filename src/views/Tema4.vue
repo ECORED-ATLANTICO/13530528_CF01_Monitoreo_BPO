@@ -145,7 +145,7 @@
           .bloque-texto-b.color-terciario.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0.ps-3 De acuerdo con Rodríguez Orozco (2018),
+              h4.mb-0.ps-3 De acuerdo con Rodríguez Orozco (2018), 
               p.mb-0 una adecuada documentación no solo facilita la comunicación entre las áreas involucradas, sino que también fortalece el seguimiento de acciones correctivas y promueve la mejora continua del servicio.
               i.fas.fa-quote-right
 
@@ -163,7 +163,7 @@
             p.mb-0 Describe las fuentes de información utilizadas (CRM, grabaciones, encuestas, entre otros), el tamaño y tipo de muestra, el periodo evaluado y la metodología aplicada para garantizar representatividad y trazabilidad.
 
           .row(numero="3" titulo="Análisis de indicadores")
-            p.mb-0 Expone los resultados cuantitativos obtenidos para cada indicador clave de desempeño (TTR, FCR, CSAT, cumplimiento del script), comparando los valores reales con los esperados.
+            p.mb-0 Expone los resultados cuantitativos obtenidos para cada indicador clave de desempeño (TTR, FCR, CSAT, cumplimiento del <em>script</em>), comparando los valores reales con los esperados.
           
           .row(numero="4" titulo="Comparación con estándares")
             p.mb-0 Contrasta los resultados con los niveles definidos en el Acuerdo de Nivel de Servicio (SLA) e identifica desviaciones, brechas o cumplimientos destacados.
