@@ -298,12 +298,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Mario Morales Cabrera ',
-          cargo: 'Experto temático ',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Yezid Arturo Choperena Guerrero',
+          nombre: 'Nicolas Cruz Ríos ',
           cargo: 'Experto temático ',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -324,7 +319,7 @@ export default {
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <i>full stack junior</i>',
+          cargo: 'Desarrollador <em>full stack<em>',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
