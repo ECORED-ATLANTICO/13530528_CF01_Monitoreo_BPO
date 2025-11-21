@@ -113,8 +113,9 @@
             
           .row(numero="5" titulo="Mecanismos de seguimiento")
             p.mb-0 Describe los procedimientos para monitorear el cumplimiento de los acuerdos, incluyendo la frecuencia de los reportes, las herramientas empleadas (CRM, tableros de control, auditorías) y los canales de comunicación. También considera la programación de reuniones de revisión y evaluación de resultados.
-            
-  
+          
+          .row(numero="6" titulo="Consecuencias por incumplimiento")
+            p.mb-0 Especifica las acciones correctivas o preventivas que se aplicarán en caso de incumplimiento de los niveles acordados. Estas pueden incluir planes de mejora, sanciones económicas, revisión de condiciones contractuales o terminación del servicio, garantizando la transparencia y la mejora continua.
     separador
 
     //- Titulo

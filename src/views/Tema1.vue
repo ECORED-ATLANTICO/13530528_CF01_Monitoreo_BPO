@@ -22,6 +22,7 @@
           figure
             img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema3/img06.png', alt='Imagen Decorativa')
         
+    separador
 
     //- Titulo
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -102,7 +103,7 @@
               div.tarjeta-horz.mb-3
                 img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen decorativa')
                 div.texto-tarjeta.bg-white
-                    p.mb-0 El BPO atiende diversos segmentos de mercado, desde telecomunicaciones y banca hasta salud, retail y tecnología, cada segmento tiene necesidades específicas que definen el tipo de servicio, los indicadores de gestión y los protocolos operativos. 
+                    p.mb-0 El BPO atiende diversos segmentos de mercado, desde telecomunicaciones y banca hasta salud, <em>retail</em> y tecnología, cada segmento tiene necesidades específicas que definen el tipo de servicio, los indicadores de gestión y los protocolos operativos. 
 
         .row.align-items-center.justify-content-center(data-aos="fade-left").mb-5
           .col-12.col-sm-12.col-md-8.col-lg-3.mx-auto
@@ -126,7 +127,7 @@
                   figure
                     img.mb-4.mb-lg-0(src='@/assets/curso/temas/tema1/img11.svg', alt='Imagen Decorativa')
                 .col-12.col-md-12.col-lg-10
-                  p.mb-0 Atiende una alta demanda de soporte técnico y servicio al cliente, priorizando la agilidad en la respuesta. Combina servicios <em> front office</em> y mixtos, donde se emplean indicadores como TTR, FCR y CSAT para medir la eficiencia y la satisfacción. Los protocolos operativos incluyen el uso de scripts estandarizados, procesos de escalamiento y monitoreo continuo para asegurar la calidad en la atención.
+                  p.mb-0 Atiende una alta demanda de soporte técnico y servicio al cliente, priorizando la agilidad en la respuesta. Combina servicios <em> front office</em> y mixtos, donde se emplean indicadores como TTR, FCR y CSAT para medir la eficiencia y la satisfacción. Los protocolos operativos incluyen el uso de <em>scripts</em> estandarizados, procesos de escalamiento y monitoreo continuo para asegurar la calidad en la atención.
 
               .row(titulo="Financiero").justify-content-center.align-items-center.p-2
                 .col-12.col-md-8.col-lg-2

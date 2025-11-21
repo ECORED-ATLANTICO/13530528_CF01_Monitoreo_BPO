@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Niveles de servicio
+      h1 Indicadores de gestión
  
     .bg-full-width.bg04
       .row.align-items-center(data-aos="fade-left")
@@ -43,7 +43,7 @@
       .row.align-items-center.bg-color-terciario-t20.p-4(data-aos="fade-left")
         .col-12.col-md-6.col-lg-1.mx-auto
           figure
-            img.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema3/img15.svg', alt='Imagen Decorativa')
+            img.mb-4.mb-lg-0.mx-auto(src='@/assets/curso/temas/tema3/img15.png', alt='Imagen Decorativa')
         .col-12.col-md-12.col-lg-11
           p.mb-0 Por ejemplo, el tiempo promedio de respuesta (TTR) es un indicador que refleja la agilidad del servicio, mientras que la satisfacción del cliente (CSAT) mide la percepción del usuario. Ambos son esenciales para entender si el servicio está cumpliendo con lo prometido. Un buen indicador no solo mide, también orienta y transforma.
 
@@ -90,7 +90,7 @@
                 .tarjeta.p-3.p-lg-5
                   .row.align-items-center
                     .col-12.col-lg-8
-                      h5.mb-4 KPIs de experiencia al cliente
+                      h5.mb-4 KPIs de experiencia del cliente
                       p.mb-0 Reflejan la percepción y satisfacción del usuario sobre el servicio recibido. Aunque son indicadores subjetivos, resultan esenciales para mantener la fidelización y fortalecer la reputación del negocio. Estos KPIs se obtienen a partir de encuestas y retroalimentación directa, analizando aspectos como la satisfacción general, la facilidad del proceso y la disposición del cliente a recomendar el servicio. Si se detectan dificultades en la experiencia, el equipo ajusta los canales o el flujo de atención para mejorar la percepción del usuario.
                     .col-12.col-sm-12.col-md-8.col-lg-4.mx-auto
                       figure
@@ -128,7 +128,7 @@
                         .col-6.col-lg-8
                           img(src='@/assets/curso/temas/tema3/img10.svg' alt='Imagen Decorativa').w-auto.mx-auto.h-icons.mb-2
                       .text-center.px-3.mb-0
-                        H5.bg-color-acento-botones.text-white.py-1 Dashboards y reportes automáticos
+                        H5.bg-color-acento-botones.text-white.py-1 <em>Dashboards</em> y reportes automáticos
                         p.mb-0 Visualizan resultados en tiempo real.
                     .tarjeta.shadow.p-3.bg-white.bg-white
                       .row.justify-content-center
@@ -183,16 +183,16 @@
 
     .row.align-items-center(data-aos="fade-left")
       .row.justify-content-center.mb-5
-        .col-xl-3.col-lg-3.col-12.mb-4.mb-xl-0.col-md-8
+        .col-12.col-xl-3.col-lg-6.col-md-8.mb-4.mb-xl-0
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema3/img17.png", alt="Imagen decorativa")
             .crd_hover_txt--body
-              p.text-bold.mb-3.text-center Dashboards interactivos
+              p.text-bold.mb-3.text-center <em>Dashboards</em> interactivos
               p Paneles visuales que presentan los KPIs en tiempo real, con filtros por fecha, canal, agente o campaña, facilitando el análisis inmediato del desempeño.
 
-        .col-xl-3.col-lg-3.col-12.mb-4.mb-xl-0.col-md-8
+        .col-xl-3.col-lg-6.col-12.mb-4.mb-xl-0.col-md-8
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -201,7 +201,7 @@
               p.text-bold.mb-3.text-center Reportes automáticos
               p Informes programados (diarios, semanales o mensuales) que consolidan los indicadores y permiten hacer seguimiento a las metas y tendencias.
         
-        .col-xl-3.col-lg-3.col-12.mb-4.mb-xl-0.col-md-8
+        .col-xl-3.col-lg-6.col-12.mb-4.mb-xl-0.col-md-8
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
@@ -210,7 +210,7 @@
               p.text-bold.mb-3.text-center(:style="{'font-size': '15px'}") Sistemas de gestión del desempeño
               p Plataformas que integran información de distintas fuentes (CRM, encuestas, bases de datos, entre otros) para analizar cumplimiento de objetivos y generar alertas tempranas.
         
-        .col-xl-3.col-lg-3.col-12.mb-4.mb-xl-0.col-md-8
+        .col-xl-3.col-lg-6.col-12.mb-4.mb-xl-0.col-md-8
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure

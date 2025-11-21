@@ -2,7 +2,7 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 61%
+    bottom: 7%
     left: -2%
 
   &-2
@@ -13,7 +13,7 @@
   &-3
     animation: float1 1.8s ease-in-out infinite alternate
     position: absolute
-    top: 58%
+    bottom: 5%
     left: 45%
 
 @keyframes float1
@@ -36,7 +36,7 @@ figcaption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
+  width: 580px !important
   @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
@@ -571,3 +571,13 @@ table caption
 @media (max-width: 576px)
   .acordion .tarjeta .acordion__contenido
     padding-left: 1rem !important
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before
+  background-color: transparent
+
+.img-infografica__item
+  width: 6.5%
+
+*
+  -webkit-tap-highlight-color: transparent
+  tap-highlight-color: transparent

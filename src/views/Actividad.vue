@@ -236,7 +236,7 @@ export default {
         {
           id: 15,
           texto:
-            'Los dashboards permiten visualizar indicadores en tiempo real.',
+            'Los <em>dashboards</em> permiten visualizar indicadores en tiempo real.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -325,7 +325,7 @@ export default {
       ],
 
       mensaje_final_aprobado:
-        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
 
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',

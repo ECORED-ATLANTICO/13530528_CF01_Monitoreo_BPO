@@ -29,15 +29,15 @@
       
       //- Col10
       .row
-        .col-12.col-lg-6.mx-auto
+        .col-12.col-md-8.col-xl-6.mx-auto
           .titulo-sexto.mb-4
             h5 Figura 2. 
-              span Fases clave en la producción sostenible
+              span Evaluación del desempeño BPO
 
           ImagenInfografica.d-none.d-lg-block.img-infografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img.mb-3(src='@/assets/curso/temas/tema4/img02.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+                img.mb-3(src='@/assets/curso/temas/tema4/img02.svg', alt='Texto alternativo: La figura muestra los pasos del proceso de evaluación del desempeño en servicios BPO, que comprende la recolección de datos, el análisis de la información y la comparación con los estándares establecidos, evidenciando un flujo secuencial que transforma los datos operativos en información útil para la toma de decisiones.')
                 figcaption 
                   b Fuente. 
                   | SENA, 2025.
@@ -50,11 +50,11 @@
                 p.p-2.color-adicional-2--text Transforma los datos en conocimiento útil. Implica organizar, calcular indicadores, detectar tendencias y causas de desviaciones, utilizando herramientas como Excel o Power BI. Permite comprender el desempeño del servicio con base en evidencia y contexto operativo.
             .tarjeta.p-2.px-3(x="84.6%" y="63.5%" numero="+")              
               .h5.mb-2.color-adicional-2 03
-                p.p-2.color-adicional-2--text Valida si los resultados cumplen con metas internas, SLA o benchmarks sectoriales. Identifica brechas, mide el grado de cumplimiento y activa acciones correctivas cuando existen desviaciones. Se apoya en comparaciones gráficas o tabulares para una interpretación clara.
+                p.p-2.color-adicional-2--text Valida si los resultados cumplen con metas internas, SLA o <em>benchmarks sectoriales</em>. Identifica brechas, mide el grado de cumplimiento y activa acciones correctivas cuando existen desviaciones. Se apoya en comparaciones gráficas o tabulares para una interpretación clara.
             
           //- Version movil de la figura
           figure.d-block.d-lg-none
-            img(src='@/assets/curso/temas/tema4/img02_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+            img(src='@/assets/curso/temas/tema4/img02_1.svg', alt='Texto alternativo: La figura muestra los pasos del proceso de evaluación del desempeño en servicios BPO, que comprende la recolección de datos, el análisis de la información y la comparación con los estándares establecidos, evidenciando un flujo secuencial que transforma los datos operativos en información útil para la toma de decisiones.')
 
     separador
 
@@ -120,7 +120,7 @@
                 td Calidad, trazabilidad y auditoría.
               tr
                 td Ejemplos
-                td Matrices de evaluación, checklists.
+                td Matrices de evaluación, <em>checklists</em>.
                 td ISO 9001, ITIL, ISO/IEC 15504.
               tr
                 td Aplicación

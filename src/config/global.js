@@ -165,7 +165,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA1_62110007_DU.pdf',
+        download: 'downloads/CFA1_13530528_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -203,7 +203,7 @@ export default {
         'Documento técnico-operativo que establece los parámetros mínimos de calidad, eficiencia y oportunidad que debe cumplir un servicio tercerizado.',
     },
     {
-      termino: 'Back office',
+      termino: '<em>Back office</em>',
       significado:
         'Tipo de servicio BPO que se desarrolla sin contacto directo con el cliente.',
     },
@@ -213,7 +213,7 @@ export default {
         'Dimensión evaluativa que mide el grado de cumplimiento de protocolos, estándares y buenas prácticas en la prestación del servicio.',
     },
     {
-      termino: 'CRM (Customer Relationship Management)',
+      termino: 'CRM <em>(Customer Relationship Management)</em>',
       significado:
         'Sistema tecnológico que permite gestionar las interacciones con clientes, registrar datos operativos, medir indicadores y facilitar el seguimiento de casos en tiempo real.',
     },
@@ -223,7 +223,7 @@ export default {
         'Proceso técnico que permite validar la operación del servicio mediante la recolección, análisis y comparación de datos frente a estándares definidos.',
     },
     {
-      termino: 'Front office',
+      termino: '<em>Front office</em>',
       significado:
         'Tipo de servicio BPO que implica contacto directo con el cliente.',
     },
@@ -235,7 +235,7 @@ export default {
     {
       termino: 'Matriz de evaluación',
       significado:
-        'Formato técnico que permite analizar la calidad de una interacción o proceso, mediante criterios como cortesía, resolución, cumplimiento del script y manejo emocional.',
+        'Formato técnico que permite analizar la calidad de una interacción o proceso, mediante criterios como cortesía, resolución, cumplimiento del <em>script</em> y manejo emocional.',
     },
     {
       termino: 'Procedimiento técnico',
