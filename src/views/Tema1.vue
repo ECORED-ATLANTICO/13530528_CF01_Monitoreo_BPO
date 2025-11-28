@@ -114,7 +114,8 @@
             .bloque-texto-b.color-terciario
               .bloque-texto-b__texto
                 i.fas.fa-quote-left
-                h4.mb-0.ps-3 Según ESIC <em>Business & Marketing School (2025)</em>, 
+                p.mb-0.ps-3 
+                  b Según ESIC <em>Business & Marketing School (2025)</em>, 
                 p.mb-0 los clientes del BPO buscan eficiencia, escalabilidad y experiencia especializada, por lo que el proveedor debe adaptar su modelo de negocio a cada industria.
                 i.fas.fa-quote-right
                 

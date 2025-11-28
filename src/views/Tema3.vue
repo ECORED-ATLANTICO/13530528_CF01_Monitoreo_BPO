@@ -31,7 +31,8 @@
               .bloque-texto-b.color-terciario
                 .bloque-texto-b__texto
                   i.fas.fa-quote-left
-                  h4.mb-0.ps-3 Según Rivero-Remírez (2019), 
+                  p.mb-0.ps-3 
+                    b Según Rivero-Remírez (2019), 
                   p.mb-0 los indicadores deben ser relevantes, medibles, comparables y alineados con los objetivos estratégicos. En servicios BPO, los indicadores permiten validar aspectos como eficiencia operativa, calidad del servicio, experiencia del cliente y cumplimiento de acuerdos contractuales.
                   i.fas.fa-quote-right
 

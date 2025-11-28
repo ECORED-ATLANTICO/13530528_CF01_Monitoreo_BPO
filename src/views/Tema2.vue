@@ -34,7 +34,8 @@
           .bloque-texto-b.color-terciario
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0.ps-3 Según Zendesk (s.f.), 
+              p.mb-0.ps-3 
+                b Según Zendesk (s.f.), 
               p.mb-0 estos acuerdos permiten al cliente definir con precisión las expectativas sobre tiempos de respuesta, resolución de solicitudes, disponibilidad y satisfacción del usuario. Constituyen una guía de gestión que orienta la operación, facilita el control del desempeño y promueve relaciones basadas en la transparencia y el cumplimiento de compromisos.
               i.fas.fa-quote-right
 
@@ -69,7 +70,8 @@
           .bloque-texto-b.color-terciario
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0.ps-3 Según González & Rodríguez (2021),
+              p.mb-0.ps-3 
+                b Según González & Rodríguez (2021),
               p.mb-0  un SLA bien estructurado debe ser claro, medible, alcanzable y coherente con los objetivos estratégicos del negocio, garantizando la gestión efectiva y la mejora continua del servicio. Un SLA típico en el contexto BPO incluye los siguientes componentes:
               i.fas.fa-quote-right
         .col-1
@@ -82,11 +84,11 @@
             h5 Figura 1. 
               span Componentes de la estructura SLA
           figure.mb-4
-            img(src='@/assets/curso/temas/tema2/img05.svg', alt='La figura describe las herramientas de diagnóstico para la sostenibilidad, DOFA verde, benchmarking sostenible, Análisis de Ciclo de Vida, huella de carbono y balanced scorecard verde, destacando su función en la identificación de oportunidades de mejora y en la toma de decisiones.').mx-auto.d-none.d-md-block
+            img(src='@/assets/curso/temas/tema2/img05.svg', alt='La figura muestra la estructura de un Acuerdo de Nivel de Servicio (SLA), que incluye la descripción del servicio, indicadores de desempeño, niveles mínimos aceptables, responsabilidades de las partes, mecanismos de seguimiento y consecuencias por incumplimiento.').mx-auto.d-none.d-md-block
 
           //- Version movil de la figura
           figure.d-block.d-md-none.d-lg-none
-            img(src='@/assets/curso/temas/tema2/img05_1.svg', alt='La figura relaciona cuatro técnicas de seguimiento comercial. La primera es la llamada telefónica; la segunda es el correo personalizado, la tercera es la reunión de seguimiento y finalmente el contenido adicional.')
+            img(src='@/assets/curso/temas/tema2/img05_1.svg', alt='La figura muestra la estructura de un Acuerdo de Nivel de Servicio (SLA), que incluye la descripción del servicio, indicadores de desempeño, niveles mínimos aceptables, responsabilidades de las partes, mecanismos de seguimiento y consecuencias por incumplimiento.')
 
           figcaption 
             b Fuente: 

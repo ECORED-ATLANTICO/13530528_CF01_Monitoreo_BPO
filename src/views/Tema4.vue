@@ -50,7 +50,7 @@
                 p.p-2.color-adicional-2--text Transforma los datos en conocimiento útil. Implica organizar, calcular indicadores, detectar tendencias y causas de desviaciones, utilizando herramientas como Excel o Power BI. Permite comprender el desempeño del servicio con base en evidencia y contexto operativo.
             .tarjeta.p-2.px-3(x="84.6%" y="63.5%" numero="+")              
               .h5.mb-2.color-adicional-2 03
-                p.p-2.color-adicional-2--text Valida si los resultados cumplen con metas internas, SLA o <em>benchmarks sectoriales</em>. Identifica brechas, mide el grado de cumplimiento y activa acciones correctivas cuando existen desviaciones. Se apoya en comparaciones gráficas o tabulares para una interpretación clara.
+                p.p-2.color-adicional-2--text Valida si los resultados cumplen con metas internas, SLA o <em>benchmarks</em> sectoriales. Identifica brechas, mide el grado de cumplimiento y activa acciones correctivas cuando existen desviaciones. Se apoya en comparaciones gráficas o tabulares para una interpretación clara.
             
           //- Version movil de la figura
           figure.d-block.d-lg-none
@@ -145,7 +145,8 @@
           .bloque-texto-b.color-terciario.mb-4
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0.ps-3 De acuerdo con Rodríguez Orozco (2018), 
+              p.mb-0.ps-3 
+                b De acuerdo con Rodríguez Orozco (2018), 
               p.mb-0 una adecuada documentación no solo facilita la comunicación entre las áreas involucradas, sino que también fortalece el seguimiento de acciones correctivas y promueve la mejora continua del servicio.
               i.fas.fa-quote-right
 
