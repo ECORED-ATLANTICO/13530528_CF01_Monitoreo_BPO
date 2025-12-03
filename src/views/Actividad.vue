@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar la comprensión del aprendiz sobre los conceptos, indicadores y procedimientos de evaluación del desempeño en servicios BPO, promoviendo el análisis crítico y la aplicación práctica del conocimiento.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
